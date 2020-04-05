@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Avatar_Setting</string>
+    <string name="main_menu">メイン表示</string>
+    <string name="mainprofile_menu">メイン（プロフィール）</string>
+    <string name="mainavatar_menu">メイン（アバター）</string>
+    <string name="edit_menu">設定（）</string>
+    <string name="editprofile_menu">設定（プロフィール）</string>
+    <string name="editavator_menu">設定（アバター）</string>
+    <string name="avator_name_edit">アバターネーム（入力）</string>
+    <string name="avator_charactorlistic_edit">アバター特性</string>
+    <string name="saveavator_edit">保存（アバター）</string>
+    <string name="cancel">キャンセル</string>
+
+</resources>

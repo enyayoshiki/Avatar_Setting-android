@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditAvatar">
+
+    <ImageView
+        android:id="@+id/avatorImage_edit"
+        android:layout_width="181dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/drycurry" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/avatorName_edit"
+        android:text="@string/avator_name_edit"
+        app:layout_constraintTop_toBottomOf="@id/avatorImage_edit"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintBottom_toTopOf="@id/avatorCharactarlistic_edit"
+        android:layout_marginBottom="30dp"
+        ></EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/avatorCharactarlistic_edit"
+        android:text="@string/avator_charactorlistic_edit"
+        app:layout_constraintLeft_toLeftOf="@id/avatorName_edit"
+        app:layout_constraintTop_toBottomOf="@id/avatorName_edit"
+        app:layout_constraintBottom_toTopOf="@id/saveavatorBtn"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/saveavatorBtn"
+        android:text="@string/saveavator_edit"
+        app:layout_constraintTop_toTopOf="@id/avatorCharactarlistic_edit"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="90dp"
+        ></Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancelBtn"
+        android:text="@string/cancel"
+        app:layout_constraintTop_toTopOf="@id/saveavatorBtn"
+        app:layout_constraintLeft_toRightOf="@id/saveavatorBtn"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintBottom_toBottomOf="@id/saveavatorBtn"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="40dp"
+        ></Button>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
